@@ -5,12 +5,12 @@ title: 我的Blog
 
 <h2>{{ page.title }}</h2>
 
-<p>作业</p>
+<p>最新文章</p>
 
 <ul>
 
 　  {% for post in site.posts %}
-        
+		<h2> {{ post.title }} </h2>
 　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
 
 　　{% endfor %}
