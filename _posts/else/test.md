@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Test
-categories: homework
+categories: else
 ---
 ##Just a test.
